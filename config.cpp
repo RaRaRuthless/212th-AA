@@ -188,7 +188,8 @@ class CfgPatches
 			"SCI_helmet_Porter",
 			"SCI_helmet_Shockcap",
 			"SCI_helmet_Spacy",
-			"SCI_helmet_Woody"
+			"SCI_helmet_Woody",
+			"SCI_helmet_templete"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -3158,6 +3159,14 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"sci_cloneArmor\data\helmettextures\p2helmet_Woody_CO.paa"
+		};
+	};
+	class SCI_helmet_template: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'template'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_template_CO.paa"
 		};
 	};
 	class SCI_helmet_Replace: SCI_helmet_base
