@@ -189,7 +189,7 @@ class CfgPatches
 			"SCI_helmet_Shockcap",
 			"SCI_helmet_Spacy",
 			"SCI_helmet_Woody",
-			"SCI_helmet_templete"
+			"SCI_helmet_template"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
