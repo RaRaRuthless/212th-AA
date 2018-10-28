@@ -3182,7 +3182,6 @@ class cfgWeapons
 	class SCI_helmet_Arcrillo: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 'Arcrillo'";
-		scope=1
 		hiddenSelectionsTextures[]=
 		{
 			"sci_cloneArmor\data\helmettextures\p2helmet_Arcrillo_CO.paa"
