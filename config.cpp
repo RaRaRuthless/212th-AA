@@ -3179,7 +3179,7 @@ class cfgWeapons
 			"sci_cloneArmor\data\helmettextures\p2helmet_Apollo_CO.paa"
 		};
 	};
-	class SCI_helmet_Replace: SCI_helmet_base
+	class SCI_helmet_Arcrillo: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 'Arcrillo'";
 		scope=1
