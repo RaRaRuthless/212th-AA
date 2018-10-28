@@ -190,7 +190,8 @@ class CfgPatches
 			"SCI_helmet_Spacy",
 			"SCI_helmet_Woody",
 			"SCI_helmet_template",
-			"SCI_helmet_Apollo"
+			"SCI_helmet_Apollo",
+			"SCI_helmet_Arcrillo"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -3176,6 +3177,15 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"sci_cloneArmor\data\helmettextures\p2helmet_Apollo_CO.paa"
+		};
+	};
+	class SCI_helmet_Replace: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Arcrillo'";
+		scope=1
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Arcrillo_CO.paa"
 		};
 	};
 	class SCI_helmet_Replace: SCI_helmet_base
