@@ -191,7 +191,12 @@ class CfgPatches
 			"SCI_helmet_Woody",
 			"SCI_helmet_template",
 			"SCI_helmet_Apollo",
-			"SCI_helmet_Arcrillo"
+			"SCI_helmet_Arcrillo",
+			"SCI_helmet_Bang",
+			"SCI_helmet_Ross",
+			"SCI_helmet_Nairoc",
+			"SCI_helmet_Ozpin",
+			"SCI_helmet_Lighter"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -3185,6 +3190,46 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"sci_cloneArmor\data\helmettextures\p2helmet_Arcrillo_CO.paa"
+		};
+	};
+	class SCI_helmet_Bang: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Bang'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Bang_CO.paa"
+		};
+	};
+	class SCI_helmet_Ross: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Ross'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Ross_CO.paa"
+		};
+	};
+	class SCI_helmet_Nairoc: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Nairoc'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Nairoc_CO.paa"
+		};
+	};
+	class SCI_helmet_Ozpin: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Ozpin'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Ozpin_CO.paa"
+		};
+	};
+	class SCI_helmet_Lighter: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Lighter'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Lighter_CO.paa"
 		};
 	};
 	class SCI_helmet_Replace: SCI_helmet_base
