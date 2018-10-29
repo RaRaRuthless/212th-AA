@@ -198,7 +198,9 @@ class CfgPatches
 			"SCI_helmet_Ozpin",
 			"SCI_helmet_Lighter",
 			"SCI_helmet_Serin",
-			"SCI_helmet_Husky"
+			"SCI_helmet_Husky",
+			"SCI_helmet_Reynard",
+			"SCI_helmet_Hazza"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -3248,6 +3250,22 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"sci_cloneArmor\data\helmettextures\p2helmet_Husky_CO.paa"
+		};
+	};
+	class SCI_helmet_Reynard: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Reynard'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Reynard_CO.paa"
+		};
+	};
+	class SCI_helmet_Hazza: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Hazza'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Hazza_CO.paa"
 		};
 	};
 	class SCI_helmet_Replace: SCI_helmet_base
