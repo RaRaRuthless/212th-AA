@@ -196,7 +196,8 @@ class CfgPatches
 			"SCI_helmet_Ross",
 			"SCI_helmet_Nairoc",
 			"SCI_helmet_Ozpin",
-			"SCI_helmet_Lighter"
+			"SCI_helmet_Lighter",
+			"SCI_helmet_Serin"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -3230,6 +3231,14 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"sci_cloneArmor\data\helmettextures\p2helmet_Lighter_CO.paa"
+		};
+	};
+	class SCI_helmet_Serin: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Serin'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Serin_CO.paa"
 		};
 	};
 	class SCI_helmet_Replace: SCI_helmet_base
