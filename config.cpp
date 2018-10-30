@@ -203,7 +203,8 @@ class CfgPatches
 			"SCI_helmet_Hazza",
 			"SCI_helmet_BMyint",
 			"SCI_helmet_Swat",
-			"SCI_helmet_Amped"
+			"SCI_helmet_Amped",
+			"SCI_helmet_Grinner"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -3293,6 +3294,14 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"sci_cloneArmor\data\helmettextures\p2helmet_Amped_CO.paa"
+		};
+	};
+	class SCI_helmet_Grinner: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Grinner'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Grinner_CO.paa"
 		};
 	};
 	class SCI_helmet_Replace: SCI_helmet_base
