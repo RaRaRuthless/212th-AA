@@ -200,7 +200,8 @@ class CfgPatches
 			"SCI_helmet_Serin",
 			"SCI_helmet_Husky",
 			"SCI_helmet_Reynard",
-			"SCI_helmet_Hazza"
+			"SCI_helmet_Hazza",
+			"SCI_helmet_BMyint"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -3266,6 +3267,14 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"sci_cloneArmor\data\helmettextures\p2helmet_Hazza_CO.paa"
+		};
+	};
+	class SCI_helmet_BMyint: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'BMyint'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_BMyint_CO.paa"
 		};
 	};
 	class SCI_helmet_Replace: SCI_helmet_base
