@@ -179,7 +179,6 @@ class CfgPatches
 			"SCI_helmet_Blazing",
 			"SCI_helmet_Comanche",
 			"SCI_helmet_Derbear",
-			"SCI_helmet_Eli",
 			"SCI_helmet_Hazard",
 			"SCI_helmet_Kev",
 			"SCI_helmet_Lee",
@@ -3094,14 +3093,6 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"sci_cloneArmor\data\helmettextures\p2helmet_Derbear_CO.paa"
-		};
-	};
-	class SCI_helmet_Eli: SCI_helmet_base
-	{
-		displayName="[SCI] ACH-P-2 'Eli'";
-		hiddenSelectionsTextures[]=
-		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Eli_CO.paa"
 		};
 	};
 	class SCI_helmet_Hazard: SCI_helmet_base
