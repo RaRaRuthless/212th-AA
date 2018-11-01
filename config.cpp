@@ -204,7 +204,10 @@ class CfgPatches
 			"SCI_helmet_Swat",
 			"SCI_helmet_Amped",
 			"SCI_helmet_Grinner",
-			"SCI_helmet_Eli"
+			"SCI_helmet_Eli",
+			"SCI_helmet_Slywalker",
+			"SCI_helmet_Lava",
+			"SCI_helmet_Fool"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -3302,6 +3305,30 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"sci_cloneArmor\data\helmettextures\p2helmet_Eli_CO.paa"
+		};
+	};
+	class SCI_helmet_Slywalker: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Slywalker'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Slywalker_CO.paa"
+		};
+	};
+	class SCI_helmet_Lava: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Lava'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Lava_CO.paa"
+		};
+	};
+	class SCI_helmet_Fool: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Fool'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Fool_CO.paa"
 		};
 	};
 	class SCI_helmet_Replace: SCI_helmet_base
