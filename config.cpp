@@ -207,7 +207,8 @@ class CfgPatches
 			"SCI_helmet_Eli",
 			"SCI_helmet_Slywalker",
 			"SCI_helmet_Lava",
-			"SCI_helmet_Fool"
+			"SCI_helmet_Fool",
+			"SCI_helmet_Umbra"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -3329,6 +3330,14 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"sci_cloneArmor\data\helmettextures\p2helmet_Fool_CO.paa"
+		};
+	};
+	class SCI_helmet_Umbra: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Umbra'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Umbra_CO.paa"
 		};
 	};
 	class SCI_helmet_Replace: SCI_helmet_base
