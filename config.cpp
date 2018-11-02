@@ -210,7 +210,8 @@ class CfgPatches
 			"SCI_helmet_Fool",
 			"SCI_helmet_Umbra",
 			"SCI_helmet_Headshot",
-			"SCI_helmet_Eski"
+			"SCI_helmet_Eski",
+			"SCI_helmet_Mavroc"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -3356,6 +3357,14 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"sci_cloneArmor\data\helmettextures\p2helmet_Eski_CO.paa"
+		};
+	};
+	class SCI_helmet_Mavroc: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Mavroc'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Mavroc_CO.paa"
 		};
 	};
 	class SCI_helmet_Replace: SCI_helmet_base
