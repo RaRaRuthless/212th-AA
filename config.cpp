@@ -208,7 +208,9 @@ class CfgPatches
 			"SCI_helmet_Slywalker",
 			"SCI_helmet_Lava",
 			"SCI_helmet_Fool",
-			"SCI_helmet_Umbra"
+			"SCI_helmet_Umbra",
+			"SCI_helmet_Headshot",
+			"SCI_helmet_Eski"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -3338,6 +3340,22 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"sci_cloneArmor\data\helmettextures\p2helmet_Umbra_CO.paa"
+		};
+	};
+	class SCI_helmet_Headshot: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Headshot'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Headshot_CO.paa"
+		};
+	};
+	class SCI_helmet_Eski: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Eski'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Eski_CO.paa"
 		};
 	};
 	class SCI_helmet_Replace: SCI_helmet_base
