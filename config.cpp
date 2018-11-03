@@ -211,7 +211,9 @@ class CfgPatches
 			"SCI_helmet_Umbra",
 			"SCI_helmet_Headshot",
 			"SCI_helmet_Eski",
-			"SCI_helmet_Mavroc"
+			"SCI_helmet_Mavroc",
+			"SCI_helmet_Samael",
+			"SCI_helmet_Crimmy"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -3365,6 +3367,22 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"sci_cloneArmor\data\helmettextures\p2helmet_Mavroc_CO.paa"
+		};
+	};
+	class SCI_helmet_Samael: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Samael'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Samael_CO.paa"
+		};
+	};
+	class SCI_helmet_Crimmy: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Crimmy'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Crimmy_CO.paa"
 		};
 	};
 	class SCI_helmet_Replace: SCI_helmet_base
