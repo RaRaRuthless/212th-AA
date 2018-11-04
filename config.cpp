@@ -3411,6 +3411,14 @@ class cfgWeapons
 			"sci_cloneArmor\data\helmettextures\p2helmet_Dixie_CO.paa"
 		};
 	};
+	class SCI_helmet_Chronos: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Chronos'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Chronos_CO.paa"
+		};
+	};
 	class VestItem: InventoryItem_Base_F
 	{
 		type=701;
