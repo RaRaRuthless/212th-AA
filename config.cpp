@@ -3402,6 +3402,14 @@ class cfgWeapons
 		{
 			"sci_cloneArmor\data\helmettextures\p2helmet_Replace_CO.paa"
 		};
+	};	
+	class SCI_helmet_Dixie: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Dixie'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Dixie_CO.paa"
+		};
 	};
 	class VestItem: InventoryItem_Base_F
 	{
