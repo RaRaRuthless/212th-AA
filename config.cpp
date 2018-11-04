@@ -213,7 +213,8 @@ class CfgPatches
 			"SCI_helmet_Eski",
 			"SCI_helmet_Mavroc",
 			"SCI_helmet_Samael",
-			"SCI_helmet_Crimmy"
+			"SCI_helmet_Crimmy",
+			"SCI_helmet_Kalahira"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -3383,6 +3384,14 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"sci_cloneArmor\data\helmettextures\p2helmet_Crimmy_CO.paa"
+		};
+	};
+	class SCI_helmet_Kalahira: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Kalahira'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Kalahira_CO.paa"
 		};
 	};
 	class SCI_helmet_Replace: SCI_helmet_base
