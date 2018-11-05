@@ -214,7 +214,9 @@ class CfgPatches
 			"SCI_helmet_Mavroc",
 			"SCI_helmet_Samael",
 			"SCI_helmet_Crimmy",
-			"SCI_helmet_Kalahira"
+			"SCI_helmet_Kalahira",
+			"SCI_helmet_Chronos",
+			"SCI_helmet_Dixie"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -3394,15 +3396,6 @@ class cfgWeapons
 			"sci_cloneArmor\data\helmettextures\p2helmet_Kalahira_CO.paa"
 		};
 	};
-	class SCI_helmet_Replace: SCI_helmet_base
-	{
-		displayName="[SCI] ACH-P-2 'Replace'";
-		scope=1
-		hiddenSelectionsTextures[]=
-		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Replace_CO.paa"
-		};
-	};	
 	class SCI_helmet_Dixie: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 'Dixie'";
@@ -3417,6 +3410,15 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"sci_cloneArmor\data\helmettextures\p2helmet_Chronos_CO.paa"
+		};
+	};
+	class SCI_helmet_Replace: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Replace'";
+		scope=1
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Replace_CO.paa"
 		};
 	};
 	class VestItem: InventoryItem_Base_F
