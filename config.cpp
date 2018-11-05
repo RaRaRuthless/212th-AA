@@ -216,7 +216,8 @@ class CfgPatches
 			"SCI_helmet_Crimmy",
 			"SCI_helmet_Kalahira",
 			"SCI_helmet_Chronos",
-			"SCI_helmet_Dixie"
+			"SCI_helmet_Dixie",
+			"SCI_helmet_Dead"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -3410,6 +3411,14 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"sci_cloneArmor\data\helmettextures\p2helmet_Chronos_CO.paa"
+		};
+	};
+	class SCI_helmet_Dead: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Dead'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Dead_CO.paa"
 		};
 	};
 	class SCI_helmet_Replace: SCI_helmet_base
