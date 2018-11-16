@@ -216,7 +216,10 @@ class CfgPatches
 			"SCI_helmet_Crimmy",
 			"SCI_helmet_Kalahira",
 			"SCI_helmet_Dixie",
-			"SCI_helmet_Dead"
+			"SCI_helmet_Dead",
+			"SCI_helmet_Deathstick",
+			"SCI_helmet_Syphe",
+			"SCI_helmet_Devil"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -3410,6 +3413,30 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"sci_cloneArmor\data\helmettextures\p2helmet_Dead_CO.paa"
+		};
+	};
+	class SCI_helmet_Deathstick: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Deathstick'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Deathstick_CO.paa"
+		};
+	};
+	class SCI_helmet_Syphe: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Syphe'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Syphe_CO.paa"
+		};
+	};
+	class SCI_helmet_Devil: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Devil'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Devil_CO.paa"
 		};
 	};
 	class SCI_helmet_Replace: SCI_helmet_base
