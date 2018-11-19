@@ -219,7 +219,12 @@ class CfgPatches
 			"SCI_helmet_Deathstick",
 			"SCI_helmet_Syphe",
 			"SCI_helmet_Devil",
-			"SCI_helmet_Broc"
+			"SCI_helmet_Broc",
+			"SCI_helmet_Devil",
+			"SCI_helmet_Artic",
+			"SCI_helmet_Chronos",
+			"SCI_helmet_Herold",
+			"SCI_helmet_Nyom"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -3437,6 +3442,38 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"sci_cloneArmor\data\helmettextures\p2helmet_Broc_CO.paa"
+		};
+	};
+	class SCI_helmet_Artic: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Artic'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Artic_CO.paa"
+		};
+	};
+	class SCI_helmet_Chronos: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Chronos'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Chronos_CO.paa"
+		};
+	};
+	class SCI_helmet_Herold: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Herold'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Herold_CO.paa"
+		};
+	};
+	class SCI_helmet_Nyom: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Nyom'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Nyom_CO.paa"
 		};
 	};
 	class SCI_helmet_Replace: SCI_helmet_base
