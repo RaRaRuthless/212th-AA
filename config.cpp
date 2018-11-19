@@ -165,7 +165,6 @@ class CfgPatches
 			"SCI_helmet_Kuro",
 			"SCI_helmet_carrots",
 			"SCI_helmet_Baxter",
-			"SCI_helmet_Duncan",
 			"SCI_helmet_elitebeans",
 			"SCI_helmet_liberator",
 			"SCI_helmet_raze",
@@ -2998,14 +2997,6 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"sci_cloneArmor\data\helmettextures\p2helmet_Baxter_CO.paa"
-		};
-	};
-	class SCI_helmet_Duncan: SCI_helmet_base
-	{
-		displayName="[SCI] ACH-P-2 'Druid'";
-		hiddenSelectionsTextures[]=
-		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Duncan_CO.paa"
 		};
 	};
 	class SCI_helmet_elitebeans: SCI_helmet_base
