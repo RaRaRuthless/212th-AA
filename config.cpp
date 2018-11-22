@@ -225,7 +225,9 @@ class CfgPatches
 			"SCI_helmet_Chronos",
 			"SCI_helmet_Herold",
 			"SCI_helmet_Nyom",
-			"SCI_helmet_Tracer"
+			"SCI_helmet_Tracer",
+			"SCI_helmet_Drex",
+			"SCI_helmet_Thor"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -3483,6 +3485,22 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"sci_cloneArmor\data\helmettextures\p2helmet_Tracer_CO.paa"
+		};
+	};
+	class SCI_helmet_Drex: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Drex'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Drex_CO.paa"
+		};
+	};
+	class SCI_helmet_Thor: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Thor'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Thor_CO.paa"
 		};
 	};
 	class SCI_helmet_Replace: SCI_helmet_base
