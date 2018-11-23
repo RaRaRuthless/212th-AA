@@ -227,7 +227,9 @@ class CfgPatches
 			"SCI_helmet_Nyom",
 			"SCI_helmet_Tracer",
 			"SCI_helmet_Drex",
-			"SCI_helmet_Thor"
+			"SCI_helmet_Thor",
+			"SCI_helmet_Dex",
+			"SCI_helmet_Dostana"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -3501,6 +3503,22 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"sci_cloneArmor\data\helmettextures\p2helmet_Thor_CO.paa"
+		};
+	};
+	class SCI_helmet_Dex: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Dex'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Dex_CO.paa"
+		};
+	};
+	class SCI_helmet_Dostana: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Dostana'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Dostana_CO.paa"
 		};
 	};
 	class SCI_helmet_Replace: SCI_helmet_base
