@@ -229,7 +229,10 @@ class CfgPatches
 			"SCI_helmet_Drex",
 			"SCI_helmet_Thor",
 			"SCI_helmet_Dex",
-			"SCI_helmet_Dostana"
+			"SCI_helmet_Dostana",
+			"SCI_helmet_Castle",
+			"SCI_helmet_Fierro",
+			"SCI_helmet_Loki"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -3519,6 +3522,30 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"sci_cloneArmor\data\helmettextures\p2helmet_Dostana_CO.paa"
+		};
+	};
+	class SCI_helmet_Castle: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Castle'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Castle_CO.paa"
+		};
+	};
+	class SCI_helmet_Fierro: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Fierro'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Fierro_CO.paa"
+		};
+	};
+	class SCI_helmet_Loki: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Loki'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Loki_CO.paa"
 		};
 	};
 	class SCI_helmet_Replace: SCI_helmet_base
