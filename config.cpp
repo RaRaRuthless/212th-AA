@@ -202,7 +202,9 @@ class CfgPatches
 			"SCI_helmet_Castle",
 			"SCI_helmet_Fierro",
 			"SCI_helmet_Loki",
-			"SCI_helmet_Draz"
+			"SCI_helmet_Draz",
+			"SCI_helmet_Fecker",
+			"SCI_helmet_Moca"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -3276,6 +3278,22 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"sci_cloneArmor\data\helmettextures\p2helmet_Draz_CO.paa"
+		};
+	};
+	class SCI_helmet_Fecker: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Fecker'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Fecker_CO.paa"
+		};
+	};
+	class SCI_helmet_Moca: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Moca'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Moca_CO.paa"
 		};
 	};
 	class SCI_helmet_Replace: SCI_helmet_base
