@@ -205,7 +205,17 @@ class CfgPatches
 			"SCI_helmet_Draz",
 			"SCI_helmet_Fecker",
 			"SCI_helmet_Moca",
-			"SCI_helmet_Wildcat"
+			"SCI_helmet_Wildcat",
+			"SCI_helmet_Acolyte",
+			"SCI_helmet_BlueJay",
+			"SCI_helmet_Bogey",
+			"SCI_helmet_Demo",
+			"SCI_helmet_Echo",
+			"SCI_helmet_Fuzzy",
+			"SCI_helmet_Ox",
+			"SCI_helmet_Pyra",
+			"SCI_helmet_Sev",
+			"SCI_helmet_Togg"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -3303,6 +3313,86 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"sci_cloneArmor\data\helmettextures\p2helmet_Wildcat_CO.paa"
+		};
+	};
+	class SCI_helmet_Acolyte: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Acolyte'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Acolyte_CO.paa"
+		};
+	};
+	class SCI_helmet_BlueJay: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'BlueJay'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_BlueJay_CO.paa"
+		};
+	};
+	class SCI_helmet_Bogey: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Bogey'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Bogey_CO.paa"
+		};
+	};
+	class SCI_helmet_Demo: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Demo'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Demo_CO.paa"
+		};
+	};
+	class SCI_helmet_Echo: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Echo'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Echo_CO.paa"
+		};
+	};
+	class SCI_helmet_Fuzzy: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Fuzzy'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Fuzzy_CO.paa"
+		};
+	};
+	class SCI_helmet_Ox: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Ox'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Ox_CO.paa"
+		};
+	};
+	class SCI_helmet_Pyra: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Pyra'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Pyra_CO.paa"
+		};
+	};
+	class SCI_helmet_Sev: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Sev'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Sev_CO.paa"
+		};
+	};
+	class SCI_helmet_Togg: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Togg'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Togg_CO.paa"
 		};
 	};
 	class SCI_helmet_Replace: SCI_helmet_base
