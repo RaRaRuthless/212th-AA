@@ -188,7 +188,7 @@ class CfgPatches
 			"SCI_helmet_Deathstick",
 			"SCI_helmet_Syphe",
 			"SCI_helmet_Devil",
-			"SCI_helmet_Broc",
+			"SCI_helmet_Badger",
 			"SCI_helmet_Devil",
 			"SCI_helmet_Artic",
 			"SCI_helmet_Chronos",
@@ -215,7 +215,10 @@ class CfgPatches
 			"SCI_helmet_Ox",
 			"SCI_helmet_Pyra",
 			"SCI_helmet_Sev",
-			"SCI_helmet_Togg"
+			"SCI_helmet_Togg",
+			"SCI_helmet_CountRJ",
+			"SCI_helmet_Raz",
+			"SCI_helmet_Vostock"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -3179,12 +3182,12 @@ class cfgWeapons
 			"sci_cloneArmor\data\helmettextures\p2helmet_Devil_CO.paa"
 		};
 	};
-	class SCI_helmet_Broc: SCI_helmet_base
+	class SCI_helmet_Badger: SCI_helmet_base
 	{
-		displayName="[SCI] ACH-P-2 'Broc'";
+		displayName="[SCI] ACH-P-2 'Badger'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Broc_CO.paa"
+			"sci_cloneArmor\data\helmettextures\p2helmet_Badger_CO.paa"
 		};
 	};
 	class SCI_helmet_Artic: SCI_helmet_base
@@ -3393,6 +3396,30 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"sci_cloneArmor\data\helmettextures\p2helmet_Togg_CO.paa"
+		};
+	};
+	class SCI_helmet_CountRJ: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'CountRJ'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_CountRJ_CO.paa"
+		};
+	};
+	class SCI_helmet_Raz: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Raz'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Raz_CO.paa"
+		};
+	};
+	class SCI_helmet_Vostock: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Vostock'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Vostock_CO.paa"
 		};
 	};
 	class SCI_helmet_Replace: SCI_helmet_base
