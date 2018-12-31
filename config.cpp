@@ -222,7 +222,11 @@ class CfgPatches
 			"SCI_helmet_Anthrax",
 			"SCI_helmet_Eden",
 			"SCI_helmet_Scorpion",
-			"SCI_helmet_Tabs"
+			"SCI_helmet_Tabs",
+			"SCI_helmet_Cray",
+			"SCI_helmet_Ghost",
+			"SCI_helmet_King",
+			"SCI_helmet_Squid"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -3456,6 +3460,38 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"sci_cloneArmor\data\helmettextures\p2helmet_Tabs_CO.paa"
+		};
+	};
+	class SCI_helmet_Cray: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Cray'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Cray_CO.paa"
+		};
+	};
+	class SCI_helmet_Ghost: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Ghost'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Ghost_CO.paa"
+		};
+	};
+	class SCI_helmet_King: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'King'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_King_CO.paa"
+		};
+	};
+	class SCI_helmet_Squid: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Squid'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Squid_CO.paa"
 		};
 	};
 	class SCI_helmet_Replace: SCI_helmet_base
