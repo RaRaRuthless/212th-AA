@@ -3433,7 +3433,7 @@ class cfgWeapons
 			"sci_cloneArmor\data\helmettextures\p2helmet_Vostock_CO.paa"
 		};
 	};
-	class SCI_helmet_Anthrax SCI_helmet_base
+	class SCI_helmet_Anthrax: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 'Anthrax'";
 		hiddenSelectionsTextures[]=
@@ -3724,9 +3724,4 @@ class cfgWeapons
 			"sci_cloneArmor\data\vesttextures\big_CY_CO.paa"
 		};
 	};
-};
-class cfgMods
-{
-	author="ó €¡ó €¡ó €¡ó €¡ó €¡Heal Team Si";
-	timepacked="1528245159";
 };
