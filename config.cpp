@@ -226,7 +226,10 @@ class CfgPatches
 			"SCI_helmet_Cray",
 			"SCI_helmet_Ghost",
 			"SCI_helmet_King",
-			"SCI_helmet_Squid"
+			"SCI_helmet_Squid",
+			"SCI_helmet_Gavin",
+			"SCI_helmet_Ham",
+			"SCI_helmet_Kong"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -3492,6 +3495,30 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"sci_cloneArmor\data\helmettextures\p2helmet_Squid_CO.paa"
+		};
+	};
+	class SCI_helmet_Gavin: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Gavin'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Gavin_CO.paa"
+		};
+	};
+	class SCI_helmet_Ham: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Ham'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Ham_CO.paa"
+		};
+	};
+	class SCI_helmet_Kong: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Kong'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Kong_CO.paa"
 		};
 	};
 	class SCI_helmet_Replace: SCI_helmet_base
