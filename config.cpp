@@ -3456,7 +3456,7 @@ class cfgWeapons
 			"sci_cloneArmor\data\helmettextures\p2helmet_Replace_CO.paa"
 		};
 	};
-	class 212th_Airborne_Replace: 212th_AB_helmet {
+	class 212th_Airborne_Replace: 212th_Airborne_helmet {
 		scope = 1;
 		displayName = "[SCI] ACH-P-2-AB 'Replace'";
 		hiddenSelections[] = 
