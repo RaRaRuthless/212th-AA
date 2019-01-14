@@ -1442,6 +1442,7 @@ class cfgWeapons
 {
 	class InventoryItem_Base_F;
 	class ItemCore;
+	class 212th_AB_Helmet;
 	class UniformItem;
 	class Uniform_Base: ItemCore
 	{
@@ -3529,6 +3530,20 @@ class cfgWeapons
 		{
 			"sci_cloneArmor\data\helmettextures\p2helmet_Replace_CO.paa"
 		};
+	};
+	class 212th_AB_Replace: 212th_AB_helmet {
+		scope = 1;
+		displayName = "[SCI] ACH-P-2-AB (Replace)";
+		hiddenSelections[] = 
+		{
+			"camo1",
+			"Camo2"
+		};
+		hiddenSelectionsTextures[] = 
+		{
+			"\sci_cloneArmor\data\helmettextures\p2helmetAB_Replace_CO.paa",
+			"\212th_AB\AB\data\Camo2_co.paa"
+		}; 
 	};
 	class VestItem: InventoryItem_Base_F
 	{
