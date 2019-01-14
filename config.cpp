@@ -128,6 +128,7 @@ class CfgPatches
 			"SCI_helmet_pilot_wampa3",
 			"SCI_helmet_pilot_wampa4",
 			"SCI_helmet_pilot_nor",
+			"SCI_helmet_pilot_Vox",
 			"SCI_helmet_unmarked",
 			"SCI_helmet_501",
 			"SCI_helmet_ace",
