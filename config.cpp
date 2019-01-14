@@ -2215,7 +2215,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="[SCI] ACH-P-2 Heavy (Trooper)";
-		picture="";
+		picture="sci_cloneArmor\data\icons\IconHelmet.paa";
 		model="sci_cloneArmor\data\standardhelmet.p3d";
 		hiddenSelections[]=
 		{
