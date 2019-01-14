@@ -2250,7 +2250,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="[SCI] AFH-P-2 (Wampa 1)";
-		picture="";
+		picture="sci_cloneArmor\data\icons\IconPilot.paa";
 		model="sci_cloneArmor\data\pilothelmet.p3d";
 		hiddenSelections[]=
 		{
