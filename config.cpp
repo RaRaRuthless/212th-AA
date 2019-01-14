@@ -1450,7 +1450,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="[SCI] BDU-P-2 Heavy";
-		picture="\A3\characters_f\data\ui\icon_U_BasicBody_CA.paa";
+		picture="\sci_cloneArmor\data\icons\ArmorTrooperIcon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[]=
 		{
@@ -1710,7 +1710,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="[SCI] BDU-P-2 Heavy (Kama)";
-		picture="\A3\characters_f\data\ui\icon_U_BasicBody_CA.paa";
+		picture="\sci_cloneArmor\data\icons\ArmorOfficerIcon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[]=
 		{
