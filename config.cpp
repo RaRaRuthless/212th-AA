@@ -225,6 +225,7 @@ class CfgPatches
 			"SCI_helmet_Gremlin",
 			"SCI_helmet_Nartsie",
 			"SCI_helmet_Tup",
+			"SCI_helmet_Sopel",
 			"SCI_helmet_Replace",
 			"SCI_helmet_Airborne_Replace",
 			"SCI_helmet_Pilot_Replace"
@@ -3446,6 +3447,14 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"sci_cloneArmor\data\helmettextures\p2helmet_Tup_CO.paa"
+		};
+	};
+	class SCI_helmet_Sopel: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Sopel'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\p2helmet_Sopel_CO.paa"
 		};
 	};
 	class SCI_helmet_Replace: SCI_helmet_base
