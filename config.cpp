@@ -172,7 +172,6 @@ class CfgPatches
 			"SCI_helmet_Fool",
 			"SCI_helmet_Umbra",
 			"SCI_helmet_Headshot",
-			"SCI_helmet_Eski",
 			"SCI_helmet_Mavroc",
 			"SCI_helmet_Samael",
 			"SCI_helmet_Crimmy",
@@ -3049,14 +3048,6 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"sci_cloneArmor\data\helmettextures\p2helmet_Headshot_CO.paa"
-		};
-	};
-	class SCI_helmet_Eski: SCI_helmet_base
-	{
-		displayName="[SCI] ACH-P-2 'Eski'";
-		hiddenSelectionsTextures[]=
-		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Eski_CO.paa"
 		};
 	};
 	class SCI_helmet_Mavroc: SCI_helmet_base
