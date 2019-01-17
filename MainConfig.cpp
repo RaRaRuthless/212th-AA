@@ -97,52 +97,50 @@ class CfgPatches
 			"SCI_helmet_temperate_tr",
 			"SCI_helmet_temperate_su",
 			"SCI_helmet_temperate_cm",
-			"SCI_helmet_apache",
-			"SCI_helmet_boss",
-			"SCI_helmet_charger",
-			"SCI_helmet_cutrex",
-			"SCI_helmet_cutup",
-			"SCI_helmet_dapper",
-			"SCI_helmet_gunner",
-			"SCI_helmet_fox",
-			"SCI_helmet_fruit",
-			"SCI_helmet_goose",
-			"SCI_helmet_havoc",
-			"SCI_helmet_jetski",
-			"SCI_helmet_karma",
-			"SCI_helmet_lark",
-			"SCI_helmet_lemons",
-			"SCI_helmet_lorgar",
-			"SCI_helmet_morrighanswolf",
-			"SCI_helmet_nylon",
-			"SCI_helmet_pandemic",
-			"SCI_helmet_phoenix",
-			"SCI_helmet_seven",
-			"SCI_helmet_six",
-			"SCI_helmet_south",
-			"SCI_helmet_walrus",
-			"SCI_helmet_wilde",
-			"SCI_helmet_wrench",
+			"SCI_helmet_Apache",
+			"SCI_helmet_Boss",
+			"SCI_helmet_Charger",
+			"SCI_helmet_Cutrex",
+			"SCI_helmet_Cutup",
+			"SCI_helmet_Dapper",
+			"SCI_helmet_Gunner",
+			"SCI_helmet_Fox",
+			"SCI_helmet_Fruit",
+			"SCI_helmet_Goose",
+			"SCI_helmet_Havoc",
+			"SCI_helmet_Hetski",
+			"SCI_helmet_Karma",
+			"SCI_helmet_Lark",
+			"SCI_helmet_Lemons",
+			"SCI_helmet_Lorgar",
+			"SCI_helmet_Morrighanswolf",
+			"SCI_helmet_Nylon",
+			"SCI_helmet_Pandemic",
+			"SCI_helmet_Phoenix",
+			"SCI_helmet_Seven",
+			"SCI_helmet_Six",
+			"SCI_helmet_South",
+			"SCI_helmet_Walrus",
+			"SCI_helmet_Wilde",
+			"SCI_helmet_Wrench",
 			"SCI_helmet_pilot_wampa2",
 			"SCI_helmet_pilot_wampa3",
 			"SCI_helmet_pilot_wampa4",
-			"SCI_helmet_pilot_nor",
-			"SCI_helmet_pilot_Vox",
 			"SCI_helmet_unmarked",
 			"SCI_helmet_501",
-			"SCI_helmet_ace",
-			"SCI_helmet_charger",
-			"SCI_helmet_lucky",
-			"SCI_helmet_mac",
-			"SCI_helmet_nothing",
-			"SCI_helmet_praetorian",
-			"SCI_helmet_wrench",
+			"SCI_helmet_Ace",
+			"SCI_helmet_Charger",
+			"SCI_helmet_Lucky",
+			"SCI_helmet_Mac",
+			"SCI_helmet_Nothing",
+			"SCI_helmet_Praetorian",
+			"SCI_helmet_Wrench",
 			"SCI_helmet_Dutch",
 			"SCI_helmet_Flunky",
 			"SCI_helmet_Tribbles",
 			"SCI_helmet_Kuro",
-			"SCI_helmet_carrots",
-			"SCI_helmet_raze",
+			"SCI_helmet_Carrots",
+			"SCI_helmet_Raze",
 			"SCI_helmet_Arsenal",
 			"SCI_helmet_Donny",
 			"SCI_helmet_Griff",
@@ -199,7 +197,7 @@ class CfgPatches
 			"SCI_helmet_BlueJay",
 			"SCI_helmet_Bogey",
 			"SCI_helmet_Demo",
-			"SCI_helmet_Echo",
+			"SCI_helmet_Echo",	
 			"SCI_helmet_Fuzzy",
 			"SCI_helmet_Pyra",
 			"SCI_helmet_Sev",
@@ -228,6 +226,8 @@ class CfgPatches
 			"SCI_helmet_Replace",
 			"SCI_helmet_Airborne_Kev",
 			"SCI_helmet_Airborne_Replace",
+			"SCI_helmet_pilot_Nor",
+			"SCI_helmet_pilot_Vox",
 			"SCI_helmet_Pilot_Replace"
 		};
 		requiredVersion=0.1;
@@ -2470,204 +2470,204 @@ class cfgWeapons
 			"sci_cloneArmor\data\helmettextures\p2helmet_CPaltis_CO.paa"
 		};
 	};
-	class SCI_helmet_apache: SCI_helmet_base
+	class SCI_helmet_Apache: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 'Apache'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_apache_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Apache_CO.paa"
 		};
 	};
-	class SCI_helmet_boss: SCI_helmet_base
+	class SCI_helmet_Boss: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 'Boss'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_boss_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Boss_CO.paa"
 		};
 	};
-	class SCI_helmet_charger: SCI_helmet_base
+	class SCI_helmet_Charger: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 'Charger'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_charger_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Charger_CO.paa"
 		};
 	};
-	class SCI_helmet_cutrex: SCI_helmet_base
+	class SCI_helmet_Cutrex: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 'CutRex'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_cutrex_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Cutrex_CO.paa"
 		};
 	};
-	class SCI_helmet_dapper: SCI_helmet_base
+	class SCI_helmet_Dapper: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 'Dapper'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_dapper_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Dapper_CO.paa"
 		};
 	};
-	class SCI_helmet_gunner: SCI_helmet_base
+	class SCI_helmet_Gunner: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 'Gunner'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Gunner_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Gunner_CO.paa"
 		};
 	};
-	class SCI_helmet_fox: SCI_helmet_base
+	class SCI_helmet_Fox: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 'Fox'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_fox_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Fox_CO.paa"
 		};
 	};
-	class SCI_helmet_fruit: SCI_helmet_base
+	class SCI_helmet_Fruit: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 'Fruit'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_fruit_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Fruit_CO.paa"
 		};
 	};
-	class SCI_helmet_goose: SCI_helmet_base
+	class SCI_helmet_Goose: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 'Goose'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_goose_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Goose_CO.paa"
 		};
 	};
-	class SCI_helmet_havoc: SCI_helmet_base
+	class SCI_helmet_Havoc: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 'Havoc'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_havoc_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Havoc_CO.paa"
 		};
 	};
-	class SCI_helmet_jetski: SCI_helmet_base
+	class SCI_helmet_Jetski: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 'Jetski'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_jetski_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Jetski_CO.paa"
 		};
 	};
-	class SCI_helmet_karma: SCI_helmet_base
+	class SCI_helmet_Karma: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 'Karma'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_karma_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Karma_CO.paa"
 		};
 	};
-	class SCI_helmet_lark: SCI_helmet_base
+	class SCI_helmet_Lark: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 'Lark'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_lark_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Lark_CO.paa"
 		};
 	};
-	class SCI_helmet_lemons: SCI_helmet_base
+	class SCI_helmet_Lemons: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 'Lemons'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_lemons_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Lemons_CO.paa"
 		};
 	};
-	class SCI_helmet_lorgar: SCI_helmet_base
+	class SCI_helmet_Lorgar: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 'Lorgar'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_lorgar_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Lorgar_CO.paa"
 		};
 	};
-	class SCI_helmet_morrighanswolf: SCI_helmet_base
+	class SCI_helmet_Morrighanswolf: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 'Morrighanswolf'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_morrighanswolf_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Morrighanswolf_CO.paa"
 		};
 	};
-	class SCI_helmet_nylon: SCI_helmet_base
+	class SCI_helmet_Nylon: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 'Nylon'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_nylon_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Nylon_CO.paa"
 		};
 	};
-	class SCI_helmet_pandemic: SCI_helmet_base
+	class SCI_helmet_Pandemic: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 'Pandemic'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_pandemic_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Pandemic_CO.paa"
 		};
 	};
-	class SCI_helmet_phoenix: SCI_helmet_base
+	class SCI_helmet_Phoenix: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 'Phoenix'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_phoenix_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Phoenix_CO.paa"
 		};
 	};
-	class SCI_helmet_seven: SCI_helmet_base
+	class SCI_helmet_Seven: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 'Seven'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_seven_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Seven_CO.paa"
 		};
 	};
-	class SCI_helmet_six: SCI_helmet_base
+	class SCI_helmet_Six: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 'Six'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_six_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Six_CO.paa"
 		};
 	};
-	class SCI_helmet_south: SCI_helmet_base
+	class SCI_helmet_South: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 'South'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_south_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_South_CO.paa"
 		};
 	};
-	class SCI_helmet_toxic: SCI_helmet_base
+	class SCI_helmet_Toxic: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 'Toxic'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_toxic_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Toxic_CO.paa"
 		};
 	};
-	class SCI_helmet_walrus: SCI_helmet_base
+	class SCI_helmet_Walrus: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 'Walrus'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_walrus_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Walrus_CO.paa"
 		};
 	};
-	class SCI_helmet_wilde: SCI_helmet_base
+	class SCI_helmet_Wilde: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 'Wilde'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_wilde_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Wilde_CO.paa"
 		};
 	};
 	class SCI_helmet_pilot_wampa2: SCI_helmet_pilot_base
@@ -2713,60 +2713,60 @@ class cfgWeapons
 			"sci_cloneArmor\data\helmettextures\p2helmet_501_CO.paa"
 		};
 	};
-	class SCI_helmet_ace: SCI_helmet_base
+	class SCI_helmet_Ace: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 'Ace'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_ace_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Ace_CO.paa"
 		};
 	};
-	class SCI_helmet_lucky: SCI_helmet_base
+	class SCI_helmet_Lucky: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 'Lucky'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_lucky_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Lucky_CO.paa"
 		};
 	};
-	class SCI_helmet_mac: SCI_helmet_base
+	class SCI_helmet_Mac: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 'Mac'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_mac_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Mac_CO.paa"
 		};
 	};
-	class SCI_helmet_nothing: SCI_helmet_base
+	class SCI_helmet_Nothing: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 'Nothing'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_nothing_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Nothing_CO.paa"
 		};
 	};
-	class SCI_helmet_praetorian: SCI_helmet_base
+	class SCI_helmet_Praetorian: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 'Praetorian'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_praetorian_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Praetorian_CO.paa"
 		};
 	};
-	class SCI_helmet_sirbuttz: SCI_helmet_base
+	class SCI_helmet_Sirbuttz: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 'Sirbuttz'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_sirbuttz_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Sirbuttz_CO.paa"
 		};
 	};
-	class SCI_helmet_wrench: SCI_helmet_base
+	class SCI_helmet_Wrench: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 'Wrench'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_wrench_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Wrench_CO.paa"
 		};
 	};
 	class SCI_helmet_Dutch: SCI_helmet_base
@@ -2774,7 +2774,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Dutch'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_dutch_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Dutch_CO.paa"
 		};
 	};
 	class SCI_helmet_Flunky: SCI_helmet_base
@@ -2782,15 +2782,15 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Flunky'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Flunky_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Flunky_CO.paa"
 		};
 	};
-	class SCI_helmet_carrots: SCI_helmet_base
+	class SCI_helmet_Carrots: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 'Carrots'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_carrots_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Carrots_CO.paa"
 		};
 	};
 	class SCI_helmet_Kuro: SCI_helmet_base
@@ -2798,7 +2798,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Kuro'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Kuro_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Kuro_CO.paa"
 		};
 	};
 	class SCI_helmet_Tribbles: SCI_helmet_base
@@ -2806,15 +2806,15 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Tribbles'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_tribbles_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Tribbles_CO.paa"
 		};
 	};
-	class SCI_helmet_raze: SCI_helmet_base
+	class SCI_helmet_Raze: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 'Raze'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_raze_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Raze_CO.paa"
 		};
 	};
 	class SCI_helmet_Arsenal: SCI_helmet_base
@@ -2822,7 +2822,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Arsenal'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_arsenal_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Arsenal_CO.paa"
 		};
 	};
 	class SCI_helmet_Donny: SCI_helmet_base
@@ -2830,7 +2830,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Donny'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Donny_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Donny_CO.paa"
 		};
 	};
 	class SCI_helmet_Griff: SCI_helmet_base
@@ -2838,7 +2838,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Griff'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Griff_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Griff_CO.paa"
 		};
 	};
 	class SCI_helmet_Blazing: SCI_helmet_base
@@ -2846,7 +2846,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Blazing'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Blazing_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Blazing_CO.paa"
 		};
 	};
 	class SCI_helmet_Derbear: SCI_helmet_base
@@ -2854,7 +2854,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Derbear'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Derbear_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Derbear_CO.paa"
 		};
 	};
 	class SCI_helmet_Hazard: SCI_helmet_base
@@ -2862,7 +2862,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Hazard'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Hazard_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Hazard_CO.paa"
 		};
 	};
 	class SCI_helmet_Shockcap: SCI_helmet_base
@@ -2870,7 +2870,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Shockcap'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Shockcap_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Shockcap_CO.paa"
 		};
 	};
 	class SCI_helmet_Spacy: SCI_helmet_base
@@ -2878,7 +2878,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Spacy'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Spacy_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Spacy_CO.paa"
 		};
 	};
 	class SCI_helmet_Woody: SCI_helmet_base
@@ -2886,7 +2886,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Woody'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Woody_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Woody_CO.paa"
 		};
 	};
 	class SCI_helmet_Apollo: SCI_helmet_base
@@ -2894,7 +2894,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Apollo'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Apollo_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Apollo_CO.paa"
 		};
 	};
 	class SCI_helmet_Arcrillo: SCI_helmet_base
@@ -2902,7 +2902,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Arcrillo'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Arcrillo_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Arcrillo_CO.paa"
 		};
 	};
 	class SCI_helmet_Bang: SCI_helmet_base
@@ -2910,7 +2910,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Bang'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Bang_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Bang_CO.paa"
 		};
 	};
 	class SCI_helmet_Ross: SCI_helmet_base
@@ -2918,7 +2918,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Ross'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Ross_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Ross_CO.paa"
 		};
 	};
 	class SCI_helmet_Nairoc: SCI_helmet_base
@@ -2926,7 +2926,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Nairoc'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Nairoc_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Nairoc_CO.paa"
 		};
 	};
 	class SCI_helmet_Ozpin: SCI_helmet_base
@@ -2934,7 +2934,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Ozpin'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Ozpin_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Ozpin_CO.paa"
 		};
 	};
 	class SCI_helmet_Serin: SCI_helmet_base
@@ -2942,7 +2942,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Serin'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Serin_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Serin_CO.paa"
 		};
 	};
 	class SCI_helmet_Husky: SCI_helmet_base
@@ -2950,7 +2950,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Husky'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Husky_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Husky_CO.paa"
 		};
 	};
 	class SCI_helmet_Reynard: SCI_helmet_base
@@ -2958,7 +2958,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Reynard'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Reynard_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Reynard_CO.paa"
 		};
 	};
 	class SCI_helmet_BMyint: SCI_helmet_base
@@ -2966,7 +2966,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'BMyint'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_BMyint_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_BMyint_CO.paa"
 		};
 	};
 	class SCI_helmet_Swat: SCI_helmet_base
@@ -2974,7 +2974,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Swat'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Swat_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Swat_CO.paa"
 		};
 	};
 	class SCI_helmet_Amped: SCI_helmet_base
@@ -2982,7 +2982,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Amped'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Amped_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Amped_CO.paa"
 		};
 	};
 	class SCI_helmet_Grinner: SCI_helmet_base
@@ -2990,7 +2990,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Grinner'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Grinner_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Grinner_CO.paa"
 		};
 	};
 	class SCI_helmet_Eli: SCI_helmet_base
@@ -2998,7 +2998,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Eli'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Eli_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Eli_CO.paa"
 		};
 	};
 	class SCI_helmet_Lava: SCI_helmet_base
@@ -3006,7 +3006,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Lava'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Lava_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Lava_CO.paa"
 		};
 	};
 	class SCI_helmet_Fool: SCI_helmet_base
@@ -3014,7 +3014,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Fool'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Fool_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Fool_CO.paa"
 		};
 	};
 	class SCI_helmet_Umbra: SCI_helmet_base
@@ -3022,7 +3022,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Umbra'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Umbra_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Umbra_CO.paa"
 		};
 	};
 	class SCI_helmet_Headshot: SCI_helmet_base
@@ -3030,7 +3030,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Headshot'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Headshot_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Headshot_CO.paa"
 		};
 	};
 	class SCI_helmet_Mavroc: SCI_helmet_base
@@ -3038,7 +3038,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Mavroc'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Mavroc_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Mavroc_CO.paa"
 		};
 	};
 	class SCI_helmet_Samael: SCI_helmet_base
@@ -3046,7 +3046,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Samael'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Samael_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Samael_CO.paa"
 		};
 	};
 	class SCI_helmet_Crimmy: SCI_helmet_base
@@ -3054,7 +3054,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Crimmy'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Crimmy_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Crimmy_CO.paa"
 		};
 	};
 	class SCI_helmet_Kalahira: SCI_helmet_base
@@ -3062,7 +3062,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Kalahira'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Kalahira_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Kalahira_CO.paa"
 		};
 	};
 	class SCI_helmet_Dixie: SCI_helmet_base
@@ -3070,7 +3070,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Dixie'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Dixie_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Dixie_CO.paa"
 		};
 	};
 	class SCI_helmet_Dead: SCI_helmet_base
@@ -3078,7 +3078,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Dead'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Dead_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Dead_CO.paa"
 		};
 	};
 	class SCI_helmet_Deathstick: SCI_helmet_base
@@ -3086,7 +3086,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Deathstick'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Deathstick_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Deathstick_CO.paa"
 		};
 	};
 	class SCI_helmet_Syphe: SCI_helmet_base
@@ -3094,7 +3094,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Syphe'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Syphe_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Syphe_CO.paa"
 		};
 	};
 	class SCI_helmet_Devil: SCI_helmet_base
@@ -3102,7 +3102,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Devil'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Devil_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Devil_CO.paa"
 		};
 	};
 	class SCI_helmet_Badger: SCI_helmet_base
@@ -3110,7 +3110,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Badger'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Badger_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Badger_CO.paa"
 		};
 	};
 	class SCI_helmet_Artic: SCI_helmet_base
@@ -3118,7 +3118,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Artic'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Artic_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Artic_CO.paa"
 		};
 	};
 	class SCI_helmet_Chronos: SCI_helmet_base
@@ -3126,7 +3126,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Chronos'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Chronos_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Chronos_CO.paa"
 		};
 	};
 	class SCI_helmet_Herold: SCI_helmet_base
@@ -3134,7 +3134,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Herold'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Herold_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Herold_CO.paa"
 		};
 	};
 	class SCI_helmet_Nyom: SCI_helmet_base
@@ -3142,7 +3142,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Nyom'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Nyom_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Nyom_CO.paa"
 		};
 	};
 	class SCI_helmet_Tracer: SCI_helmet_base
@@ -3150,7 +3150,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Tracer'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Tracer_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Tracer_CO.paa"
 		};
 	};
 	class SCI_helmet_Drex: SCI_helmet_base
@@ -3158,7 +3158,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Drex'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Drex_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Drex_CO.paa"
 		};
 	};
 	class SCI_helmet_Dex: SCI_helmet_base
@@ -3166,7 +3166,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Dex'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Dex_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Dex_CO.paa"
 		};
 	};
 	class SCI_helmet_Dostana: SCI_helmet_base
@@ -3174,7 +3174,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Dostana'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Dostana_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Dostana_CO.paa"
 		};
 	};
 	class SCI_helmet_Castle: SCI_helmet_base
@@ -3182,7 +3182,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Castle'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Castle_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Castle_CO.paa"
 		};
 	};
 	class SCI_helmet_Loki: SCI_helmet_base
@@ -3190,7 +3190,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Loki'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Loki_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Loki_CO.paa"
 		};
 	};
 	class SCI_helmet_Draz: SCI_helmet_base
@@ -3198,7 +3198,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Draz'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Draz_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Draz_CO.paa"
 		};
 	};
 	class SCI_helmet_Fecker: SCI_helmet_base
@@ -3206,7 +3206,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Fecker'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Fecker_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Fecker_CO.paa"
 		};
 	};
 	class SCI_helmet_Moca: SCI_helmet_base
@@ -3214,7 +3214,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Moca'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Moca_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Moca_CO.paa"
 		};
 	};
 	class SCI_helmet_Wildcat: SCI_helmet_base
@@ -3222,7 +3222,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Wildcat'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Wildcat_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Wildcat_CO.paa"
 		};
 	};
 	class SCI_helmet_Acolyte: SCI_helmet_base
@@ -3230,7 +3230,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Acolyte'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Acolyte_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Acolyte_CO.paa"
 		};
 	};
 	class SCI_helmet_BlueJay: SCI_helmet_base
@@ -3238,7 +3238,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'BlueJay'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_BlueJay_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_BlueJay_CO.paa"
 		};
 	};
 	class SCI_helmet_Bogey: SCI_helmet_base
@@ -3246,7 +3246,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Bogey'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Bogey_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Bogey_CO.paa"
 		};
 	};
 	class SCI_helmet_Demo: SCI_helmet_base
@@ -3254,7 +3254,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Demo'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Demo_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Demo_CO.paa"
 		};
 	};
 	class SCI_helmet_Echo: SCI_helmet_base
@@ -3262,7 +3262,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Echo'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Echo_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Echo_CO.paa"
 		};
 	};
 	class SCI_helmet_Pyra: SCI_helmet_base
@@ -3270,7 +3270,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Pyra'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Pyra_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Pyra_CO.paa"
 		};
 	};
 	class SCI_helmet_Sev: SCI_helmet_base
@@ -3278,7 +3278,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Sev'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Sev_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Sev_CO.paa"
 		};
 	};
 	class SCI_helmet_Togg: SCI_helmet_base
@@ -3286,7 +3286,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Togg'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Togg_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Togg_CO.paa"
 		};
 	};
 	class SCI_helmet_CountRJ: SCI_helmet_base
@@ -3294,7 +3294,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'CountRJ'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_CountRJ_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_CountRJ_CO.paa"
 		};
 	};
 	class SCI_helmet_Raz: SCI_helmet_base
@@ -3302,7 +3302,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Raz'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Raz_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Raz_CO.paa"
 		};
 	};
 	class SCI_helmet_Anthrax: SCI_helmet_base
@@ -3310,7 +3310,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Anthrax'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Anthrax_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Anthrax_CO.paa"
 		};
 	};
 	class SCI_helmet_Eden: SCI_helmet_base
@@ -3318,7 +3318,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Eden'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Eden_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Eden_CO.paa"
 		};
 	};
 	class SCI_helmet_Scorpion: SCI_helmet_base
@@ -3326,7 +3326,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Scorpion'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Scorpion_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Scorpion_CO.paa"
 		};
 	};
 	class SCI_helmet_Tabs: SCI_helmet_base
@@ -3334,7 +3334,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Tabs'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Tabs_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Tabs_CO.paa"
 		};
 	};
 	class SCI_helmet_Cray: SCI_helmet_base
@@ -3342,7 +3342,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Cray'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Cray_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Cray_CO.paa"
 		};
 	};
 	class SCI_helmet_Ghost: SCI_helmet_base
@@ -3350,7 +3350,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Ghost'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Ghost_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Ghost_CO.paa"
 		};
 	};
 	class SCI_helmet_King: SCI_helmet_base
@@ -3358,7 +3358,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'King'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_King_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_King_CO.paa"
 		};
 	};
 	class SCI_helmet_Squid: SCI_helmet_base
@@ -3366,7 +3366,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Squid'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Squid_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Squid_CO.paa"
 		};
 	};
 	class SCI_helmet_Gavin: SCI_helmet_base
@@ -3374,7 +3374,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Gavin'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Gavin_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Gavin_CO.paa"
 		};
 	};
 	class SCI_helmet_Ham: SCI_helmet_base
@@ -3382,7 +3382,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Ham'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Ham_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Ham_CO.paa"
 		};
 	};
 	class SCI_helmet_Kong: SCI_helmet_base
@@ -3390,7 +3390,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Kong'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Kong_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Kong_CO.paa"
 		};
 	};
 	class SCI_helmet_Centurio: SCI_helmet_base
@@ -3398,7 +3398,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Centurio'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Centurio_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Centurio_CO.paa"
 		};
 	};
 	class SCI_helmet_Gremlin: SCI_helmet_base
@@ -3406,7 +3406,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Gremlin'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Gremlin_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Gremlin_CO.paa"
 		};
 	};
 	class SCI_helmet_Nartsie: SCI_helmet_base
@@ -3414,7 +3414,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Nartsie'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Nartsie_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Nartsie_CO.paa"
 		};
 	};
 	class SCI_helmet_Tup: SCI_helmet_base
@@ -3422,7 +3422,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Tup'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Tup_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Tup_CO.paa"
 		};
 	};
 	class SCI_helmet_Sopel: SCI_helmet_base
@@ -3430,7 +3430,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Sopel'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Sopel_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Sopel_CO.paa"
 		};
 	};
 	class SCI_helmet_Nines: SCI_helmet_base
@@ -3438,7 +3438,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Nines'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Nines_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Nines_CO.paa"
 		};
 	};
 	class SCI_helmet_Vortex: SCI_helmet_base
@@ -3446,7 +3446,7 @@ class cfgWeapons
 		displayName="[SCI] ACH-P-2 'Vortex'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Vortex_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Vortex_CO.paa"
 		};
 	};
 	class SCI_helmet_Replace: SCI_helmet_base
@@ -3455,10 +3455,10 @@ class cfgWeapons
 		scope = 1;
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Replace_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Replace_CO.paa"
 		};
 	};
-	class 212th_Airborne_Kev: 212th_AB_helmet {
+	class 212th_airborne_Kev: 212th_AB_helmet {
 		displayName = "[SCI] ACH-P-2-AB 'Kev'";
 		hiddenSelections[] = 
 		{
@@ -3471,7 +3471,7 @@ class cfgWeapons
 			"\212th_AB\AB\data\Camo2_co.paa"
 		}; 
 	};
-	class 212th_Airborne_Replace: 212th_AB_helmet {
+	class 212th_airborne_Replace: 212th_AB_helmet {
 		scope = 1;
 		displayName = "[SCI] ACH-P-2-AB 'Replace'";
 		hiddenSelections[] = 
