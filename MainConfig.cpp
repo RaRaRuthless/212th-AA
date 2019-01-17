@@ -150,7 +150,6 @@ class CfgPatches
 			"SCI_helmet_Blazing",
 			"SCI_helmet_Derbear",
 			"SCI_helmet_Hazard",
-			"SCI_helmet_Kev",
 			"SCI_helmet_Shockcap",
 			"SCI_helmet_Spacy",
 			"SCI_helmet_Woody",
@@ -228,6 +227,7 @@ class CfgPatches
 			"SCI_helmet_Vortex",
 			"SCI_helmet_Nines",
 			"SCI_helmet_Replace",
+			"SCI_helmet_Airborne_Kev",
 			"SCI_helmet_Airborne_Replace",
 			"SCI_helmet_Pilot_Replace"
 		};
@@ -2874,14 +2874,6 @@ class cfgWeapons
 			"sci_cloneArmor\data\helmettextures\p2helmet_Hazard_CO.paa"
 		};
 	};
-	class SCI_helmet_Kev: SCI_helmet_base
-	{
-		displayName="[SCI] ACH-P-2 'Kev'";
-		hiddenSelectionsTextures[]=
-		{
-			"sci_cloneArmor\data\helmettextures\p2helmet_Kev_CO.paa"
-		};
-	};
 	class SCI_helmet_Shockcap: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 'Shockcap'";
@@ -3474,6 +3466,20 @@ class cfgWeapons
 		{
 			"sci_cloneArmor\data\helmettextures\p2helmet_Replace_CO.paa"
 		};
+	};
+	class 212th_Airborne_Kev: 212th_AB_helmet {
+		scope = 1;
+		displayName = "[SCI] ACH-P-2-AB 'Kev'";
+		hiddenSelections[] = 
+		{
+			"camo1",
+			"Camo2"
+		};
+		hiddenSelectionsTextures[] = 
+		{
+			"\sci_cloneArmor\data\helmettextures\p2Airborne_Kev_CO.paa",
+			"\212th_AB\AB\data\Camo2_co.paa"
+		}; 
 	};
 	class 212th_Airborne_Replace: 212th_AB_helmet {
 		scope = 1;
