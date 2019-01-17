@@ -108,7 +108,6 @@ class CfgPatches
 			"SCI_helmet_fruit",
 			"SCI_helmet_goose",
 			"SCI_helmet_havoc",
-			"SCI_helmet_ikaros",
 			"SCI_helmet_jetski",
 			"SCI_helmet_karma",
 			"SCI_helmet_lark",
