@@ -1443,7 +1443,7 @@ class cfgWeapons
 {
 	class InventoryItem_Base_F;
 	class ItemCore;
-	class 212th_AB_Helmet;
+	class 212th_Airborne_Helmet;
 	class UniformItem;
 	class Uniform_Base: ItemCore
 	{
