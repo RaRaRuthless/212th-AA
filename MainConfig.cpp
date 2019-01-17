@@ -2697,14 +2697,6 @@ class cfgWeapons
 			"sci_cloneArmor\data\helmettextures\pilot_wampa4_CO.paa"
 		};
 	};
-	class SCI_helmet_pilot_nor: SCI_helmet_pilot_base
-	{
-		displayName="[SCI] AFH-P-2 'Nor'";
-		hiddenSelectionsTextures[]=
-		{
-			"sci_cloneArmor\data\helmettextures\p2pilot_nor_CO.paa"
-		};
-	};
 	class SCI_helmet_unmarked: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 Unmarked";
@@ -3475,7 +3467,7 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[] = 
 		{
-			"\sci_cloneArmor\data\helmettextures\p2Airborne_Kev_CO.paa",
+			"\sci_cloneArmor\data\helmettextures\Airborne_Helmets\p2Airborne_Kev_CO.paa",
 			"\212th_AB\AB\data\Camo2_co.paa"
 		}; 
 	};
@@ -3489,7 +3481,7 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[] = 
 		{
-			"\sci_cloneArmor\data\helmettextures\p2Airborne_Replace_CO.paa",
+			"\sci_cloneArmor\data\helmettextures\Airborne_Helmets\p2Airborne_Replace_CO.paa",
 			"\212th_AB\AB\data\Camo2_co.paa"
 		}; 
 	};
@@ -3499,7 +3491,15 @@ class cfgWeapons
 		scope = 1;
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2Pilot_Replace_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Pilot_Helmets\Pilot_Helmets\p2Pilot_Replace_CO.paa"
+		};
+	};
+	class SCI_helmet_pilot_Nor: SCI_helmet_pilot_base
+	{
+		displayName="[SCI] AFH-P-2 'Nor'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\Pilot_Helmets\p2pilot_Nor_CO.paa"
 		};
 	};
 	class SCI_helmet_pilot_Vox: SCI_helmet_pilot_base
@@ -3507,7 +3507,7 @@ class cfgWeapons
 		displayName="[SCI] AFH-P-2 'Vox'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\p2Pilot_Vox_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Pilot_Helmets\p2Pilot_Vox_CO.paa"
 		};
 	};
 	class VestItem: InventoryItem_Base_F
