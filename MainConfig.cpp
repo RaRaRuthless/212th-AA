@@ -3497,7 +3497,7 @@ class cfgWeapons
 			"camo1",
 			"Camo2"
 		};
-		hiddenSelectionsTextures[] = 
+		hiddenSelectionsTextures[] =
 		{
 			"\sci_cloneArmor\data\helmettextures\Airborne_Helmets\p2Airborne_Replace_CO.paa",
 			"\212th_AB\AB\data\Camo2_co.paa"
