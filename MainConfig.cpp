@@ -3477,6 +3477,7 @@ class cfgWeapons
 		};
 	};
 	class 212th_Airborne_Kev: 212th_AB_helmet {
+		scope = 2;
 		displayName = "[SCI] ACH-P-2-AB 'Kev'";
 		hiddenSelections[] = 
 		{
