@@ -1443,7 +1443,7 @@ class cfgWeapons
 {
 	class InventoryItem_Base_F;
 	class ItemCore;
-	class SCI_helmet_airborne_base;
+	class 212th_AB_Helmet;
 	class UniformItem;
 	class Uniform_Base: ItemCore
 	{
@@ -1479,7 +1479,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="[SCI] BDU-P-2 Desert";
-		picture="\A3\characters_f\data\ui\icon_U_BasicBody_CA.paa";
+		picture="\sci_cloneArmor\data\icons\ArmorTrooperIcon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[]=
 		{
@@ -1505,7 +1505,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="[SCI] BDU-P-2 Kashyyk";
-		picture="\A3\characters_f\data\ui\icon_U_BasicBody_CA.paa";
+		picture="\sci_cloneArmor\data\icons\ArmorTrooperIcon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[]=
 		{
@@ -1531,7 +1531,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="[SCI] BDU-P-2 Geonosis";
-		picture="\A3\characters_f\data\ui\icon_U_BasicBody_CA.paa";
+		picture="\sci_cloneArmor\data\icons\ArmorTrooperIcon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[]=
 		{
@@ -1557,7 +1557,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="[SCI] BDU-P-2 Winter";
-		picture="\A3\characters_f\data\ui\icon_U_BasicBody_CA.paa";
+		picture="\sci_cloneArmor\data\icons\ArmorTrooperIcon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[]=
 		{
@@ -1583,7 +1583,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="[SCI] BDU-P-2 Temperate";
-		picture="\A3\characters_f\data\ui\icon_U_BasicBody_CA.paa";
+		picture="\sci_cloneArmor\data\icons\ArmorTrooperIcon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[]=
 		{
@@ -1609,7 +1609,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="[SCI] BDU-P-2 Jungle";
-		picture="\A3\characters_f\data\ui\icon_U_BasicBody_CA.paa";
+		picture="\sci_cloneArmor\data\icons\ArmorTrooperIcon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[]=
 		{
@@ -1635,7 +1635,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="[SCI] BDU-P-2 Forest";
-		picture="\A3\characters_f\data\ui\icon_U_BasicBody_CA.paa";
+		picture="\sci_cloneArmor\data\icons\ArmorTrooperIcon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[]=
 		{
@@ -1661,7 +1661,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="[SCI] BDU-P-2 Unmarked";
-		picture="\A3\characters_f\data\ui\icon_U_BasicBody_CA.paa";
+		picture="\sci_cloneArmor\data\icons\ArmorTrooperIcon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[]=
 		{
@@ -1687,7 +1687,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="[SCI] BDU-P-2 501st";
-		picture="\A3\characters_f\data\ui\icon_U_BasicBody_CA.paa";
+		picture="\sci_cloneArmor\data\icons\ArmorTrooperIcon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[]=
 		{
@@ -1742,7 +1742,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="[SCI] BDU-P-2 Desert (Kama)";
-		picture="\A3\characters_f\data\ui\icon_U_BasicBody_CA.paa";
+		picture="\sci_cloneArmor\data\icons\ArmorOfficerIcon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[]=
 		{
@@ -1771,7 +1771,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="[SCI] BDU-P-2 Kashyyk (Kama)";
-		picture="\A3\characters_f\data\ui\icon_U_BasicBody_CA.paa";
+		picture="\sci_cloneArmor\data\icons\ArmorOfficerIcon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[]=
 		{
@@ -1800,7 +1800,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="[SCI] BDU-P-2 Geonosis (Kama)";
-		picture="\A3\characters_f\data\ui\icon_U_BasicBody_CA.paa";
+		picture="\sci_cloneArmor\data\icons\ArmorOfficerIcon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[]=
 		{
@@ -1829,7 +1829,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="[SCI] BDU-P-2 Winter (Kama)";
-		picture="\A3\characters_f\data\ui\icon_U_BasicBody_CA.paa";
+		picture="\sci_cloneArmor\data\icons\ArmorOfficerIcon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[]=
 		{
@@ -1858,7 +1858,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="[SCI] BDU-P-2 Temperate (Kama)";
-		picture="\A3\characters_f\data\ui\icon_U_BasicBody_CA.paa";
+		picture="\sci_cloneArmor\data\icons\ArmorOfficerIcon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[]=
 		{
@@ -1887,7 +1887,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="[SCI] BDU-P-2 Jungle (Kama)";
-		picture="\A3\characters_f\data\ui\icon_U_BasicBody_CA.paa";
+		picture="\sci_cloneArmor\data\icons\ArmorOfficerIcon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[]=
 		{
@@ -1916,7 +1916,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="[SCI] BDU-P-2 Forest (Kama)";
-		picture="\A3\characters_f\data\ui\icon_U_BasicBody_CA.paa";
+		picture="\sci_cloneArmor\data\icons\ArmorOfficerIcon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[]=
 		{
@@ -1945,7 +1945,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="[SCI] BDU-P-2 Unmarked (Kama)";
-		picture="\A3\characters_f\data\ui\icon_U_BasicBody_CA.paa";
+		picture="\sci_cloneArmor\data\icons\ArmorOfficerIcon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[]=
 		{
@@ -1974,7 +1974,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="[SCI] BDU-P-2 501st (Kama)";
-		picture="\A3\characters_f\data\ui\icon_U_BasicBody_CA.paa";
+		picture="\sci_cloneArmor\data\icons\ArmorOfficerIcon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[]=
 		{
@@ -2003,7 +2003,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="[SCI] BDU-P-2 Heavy (Medic)";
-		picture="\A3\characters_f\data\ui\icon_U_BasicBody_CA.paa";
+		picture="\sci_cloneArmor\data\icons\ArmorTrooperIcon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[]=
 		{
@@ -2029,7 +2029,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="[SCI] BDU-P-2 Desert (Medic)";
-		picture="\A3\characters_f\data\ui\icon_U_BasicBody_CA.paa";
+		picture="\sci_cloneArmor\data\icons\ArmorTrooperIcon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[]=
 		{
@@ -2055,7 +2055,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="[SCI] BDU-P-2 Kashyyk (Medic)";
-		picture="\A3\characters_f\data\ui\icon_U_BasicBody_CA.paa";
+		picture="\sci_cloneArmor\data\icons\ArmorTrooperIcon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[]=
 		{
@@ -2081,7 +2081,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="[SCI] BDU-P-2 Geonosis (Medic)";
-		picture="\A3\characters_f\data\ui\icon_U_BasicBody_CA.paa";
+		picture="\sci_cloneArmor\data\icons\ArmorTrooperIcon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[]=
 		{
@@ -2107,7 +2107,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="[SCI] BDU-P-2 Winter (Medic)";
-		picture="\A3\characters_f\data\ui\icon_U_BasicBody_CA.paa";
+		picture="\sci_cloneArmor\data\icons\ArmorTrooperIcon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[]=
 		{
@@ -2133,7 +2133,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="[SCI] BDU-P-2 Temperate (Medic)";
-		picture="\A3\characters_f\data\ui\icon_U_BasicBody_CA.paa";
+		picture="\sci_cloneArmor\data\icons\ArmorTrooperIcon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[]=
 		{
@@ -2159,7 +2159,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="[SCI] BDU-P-2 Jungle (Medic)";
-		picture="\A3\characters_f\data\ui\icon_U_BasicBody_CA.paa";
+		picture="\sci_cloneArmor\data\icons\ArmorTrooperIcon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[]=
 		{
@@ -2185,7 +2185,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="[SCI] BDU-P-2 Forest (Medic)";
-		picture="\A3\characters_f\data\ui\icon_U_BasicBody_CA.paa";
+		picture="\sci_cloneArmor\data\icons\ArmorTrooperIcon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[]=
 		{
@@ -3476,7 +3476,7 @@ class cfgWeapons
 			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Replace_CO.paa"
 		};
 	};
-	class 212th_Airborne_Kev: SCI_helmet_airborne_base {
+	class 212th_Airborne_Kev: 212th_AB_Trooper {
 		scope = 2;
 		displayName = "[SCI] ACH-P-2-AB 'Kev'";
 		hiddenSelections[] = 
@@ -3490,7 +3490,7 @@ class cfgWeapons
 			"\212th_AB\AB\data\Camo2_co.paa"
 		}; 
 	};
-	class 212th_Airborne_Replace: SCI_helmet_airborne_base {
+	class 212th_Airborne_Replace: 212th_AB_Trooper {
 		scope = 1;
 		displayName = "[SCI] ACH-P-2-AB 'Replace'";
 		hiddenSelections[] = 
