@@ -224,6 +224,7 @@ class CfgPatches
 			"SCI_helmet_Nines",
 			"SCI_helmet_Ganch",
 			"SCI_helmet_KillSwitch",
+			"SCI_helmet_Jackyl",
 			"SCI_helmet_Replace",
 			"212th_Airborne_Kev",
 			"212th_Airborne_Replace",
@@ -3458,6 +3459,14 @@ class cfgWeapons
 			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_KillSwitch_CO.paa"
 		};
 	};
+	class SCI_helmet_Jackyl: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Jackyl'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Jackyl_CO.paa"
+		};
+	};
 	class SCI_helmet_Replace: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 'Replace'";
@@ -3468,8 +3477,8 @@ class cfgWeapons
 		};
 	};
 	class 212th_Airborne_Kev: 212th_AB_helmet {
-		scope = 2;
 		displayName = "[SCI] ACH-P-2-AB 'Kev'";
+		scope = 2;
 		hiddenSelections[] = 
 		{
 			"camo1",
@@ -3482,8 +3491,8 @@ class cfgWeapons
 		}; 
 	};
 	class 212th_Airborne_Replace: 212th_AB_helmet {
-		scope = 1;
 		displayName = "[SCI] ACH-P-2-AB 'Replace'";
+		scope = 2;
 		hiddenSelections[] = 
 		{
 			"camo1",
