@@ -104,7 +104,6 @@ class CfgPatches
 			"SCI_helmet_pilot_wampa4",
 			"SCI_helmet_Apache",
 			"SCI_helmet_Boss",
-			"SCI_helmet_Charger",
 			"SCI_helmet_Cutrex",
 			"SCI_helmet_Cutup",
 			"SCI_helmet_Dapper",
@@ -129,7 +128,6 @@ class CfgPatches
 			"SCI_helmet_Wilde",
 			"SCI_helmet_Wrench",
 			"SCI_helmet_Ace",
-			"SCI_helmet_Charger",
 			"SCI_helmet_Lucky",
 			"SCI_helmet_Mac",
 			"SCI_helmet_Nothing",
@@ -185,7 +183,6 @@ class CfgPatches
 			"SCI_helmet_Tracer",
 			"SCI_helmet_Drex",
 			"SCI_helmet_Dex",
-			"SCI_helmet_Dostana",
 			"SCI_helmet_Castle",
 			"SCI_helmet_Loki",
 			"SCI_helmet_Draz",
@@ -225,8 +222,16 @@ class CfgPatches
 			"SCI_helmet_Ganch",
 			"SCI_helmet_KillSwitch",
 			"SCI_helmet_Jackyl",
+			"SCI_helmet_Bravo",
+			"SCI_helmet_Broken",
+			"SCI_helmet_Dreki",
+			"SCI_helmet_Kile",
+			"SCI_helmet_Sparky",
+			"SCI_helmet_Spruce",
 			"SCI_helmet_Replace",
 			"212th_Airborne_Kev",
+			"212th_Airborne_Charger",
+			"212th_Airborne_Dostana",
 			"212th_Airborne_Replace",
 			"SCI_helmet_Pilot_Nor",
 			"SCI_helmet_Pilot_Vox",
@@ -2488,14 +2493,6 @@ class cfgWeapons
 			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Boss_CO.paa"
 		};
 	};
-	class SCI_helmet_Charger: SCI_helmet_base
-	{
-		displayName="[SCI] ACH-P-2 'Charger'";
-		hiddenSelectionsTextures[]=
-		{
-			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Charger_CO.paa"
-		};
-	};
 	class SCI_helmet_Cutrex: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 'CutRex'";
@@ -3163,14 +3160,6 @@ class cfgWeapons
 			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Dex_CO.paa"
 		};
 	};
-	class SCI_helmet_Dostana: SCI_helmet_base
-	{
-		displayName="[SCI] ACH-P-2 'Dostana'";
-		hiddenSelectionsTextures[]=
-		{
-			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Dostana_CO.paa"
-		};
-	};
 	class SCI_helmet_Castle: SCI_helmet_base
 	{
 		displayName="[SCI] ACH-P-2 'Castle'";
@@ -3467,13 +3456,52 @@ class cfgWeapons
 			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Jackyl_CO.paa"
 		};
 	};
-	class SCI_helmet_Replace: SCI_helmet_base
+	class SCI_helmet_Bravo: SCI_helmet_base
 	{
-		displayName="[SCI] ACH-P-2 'Replace'";
-		scope = 1;
+		displayName="[SCI] ACH-P-2 'Bravo'";
 		hiddenSelectionsTextures[]=
 		{
-			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Replace_CO.paa"
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Bravo_CO.paa"
+		};
+	};
+	class SCI_helmet_Broken: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Broken'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Broken_CO.paa"
+		};
+	};
+	class SCI_helmet_Dreki: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Dreki'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Dreki_CO.paa"
+		};
+	};
+	class SCI_helmet_Kile: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Kile'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Kile_CO.paa"
+		};
+	};
+	class SCI_helmet_Sparky: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Sparky'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Sparky_CO.paa"
+		};
+	};
+	class SCI_helmet_Spruce: SCI_helmet_base
+	{
+		displayName="[SCI] ACH-P-2 'Spruce'";
+		hiddenSelectionsTextures[]=
+		{
+			"sci_cloneArmor\data\helmettextures\Custom_Helmets\p2Helmet_Spruce_CO.paa"
 		};
 	};
 	class 212th_Airborne_Kev: 212th_AB_helmet {
@@ -3490,9 +3518,37 @@ class cfgWeapons
 			"\212th_AB\AB\data\Camo2_co.paa"
 		}; 
 	};
+	class 212th_Airborne_Charger: 212th_AB_helmet {
+		displayName = "[SCI] ACH-P-2-AB 'Charger'";
+		scope = 2;
+		hiddenSelections[] = 
+		{
+			"camo1",
+			"Camo2"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"\sci_cloneArmor\data\helmettextures\Airborne_Helmets\p2Airborne_Charger_CO.paa",
+			"\212th_AB\AB\data\Camo2_co.paa"
+		}; 
+	};
+	class 212th_Airborne_Dostana: 212th_AB_helmet {
+		displayName = "[SCI] ACH-P-2-AB 'Dostana'";
+		scope = 2;
+		hiddenSelections[] = 
+		{
+			"camo1",
+			"Camo2"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"\sci_cloneArmor\data\helmettextures\Airborne_Helmets\p2Airborne_Dostana_CO.paa",
+			"\212th_AB\AB\data\Camo2_co.paa"
+		}; 
+	};
 	class 212th_Airborne_Replace: 212th_AB_helmet {
 		displayName = "[SCI] ACH-P-2-AB 'Replace'";
-		scope = 2;
+		scope = 1;
 		hiddenSelections[] = 
 		{
 			"camo1",
